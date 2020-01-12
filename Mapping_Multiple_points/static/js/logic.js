@@ -12,7 +12,7 @@ L.circleMarker(city.location,{
     color:"orange"
 }).bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>").addTo(map);
 });
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox//tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmFyaW5kZXIxNTA4IiwiYSI6ImNrNTF1MmFzYjEwcXYzbm81aWt5NnZleGIifQ.HTJbPR72IQxnXYAwNBl57A', {
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox//tiles/{z}/{x}/{y}?access_token={accessToken}', {
 attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id:'mapbox.streets',
