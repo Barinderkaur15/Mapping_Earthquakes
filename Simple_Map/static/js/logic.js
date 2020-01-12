@@ -11,7 +11,7 @@ L.circleMarker([34.0522, -118.2437], {
     color:"black",
     fillColor :'#fffa1'
  }).addTo(map);
-let streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYmFyaW5kZXIxNTA4IiwiYSI6ImNrNTF1MmFzYjEwcXYzbm81aWt5NnZleGIifQ.HTJbPR72IQxnXYAwNBl57A', {
+let streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id:'mapbox.streets',
