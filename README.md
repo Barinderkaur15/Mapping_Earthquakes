@@ -21,11 +21,13 @@ Added multiple map layers to geographical maps using Leaflet control plugins to 
 
 6.Map Box API :Mapbox provides  map design tools and mapping libraries needed to make dynamic, performant, and customized maps 
            
-**Data Resources :**
+**Data Resources:**
 
 1. https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 2. https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
 
 
 
-**Final output : **
+**Final output:**
+![Capture](https://user-images.githubusercontent.com/55926650/72222911-926b0680-351e-11ea-8622-298fec4d1cc5.PNG)
+
